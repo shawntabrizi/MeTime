@@ -1,0 +1,323 @@
+body {
+	background: #ffffff;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	position: relative;
+	background-color:#B2D5EE;
+	background-image:url(../images/hero.jpg);
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	/*need to fix this i think... */
+	background-size:100%;
+	background-position: 0px 50px;
+}
+html, body {
+	width: 100%;
+	overflow-x: hidden;
+}
+h1, h2, h3, h4 {
+	font-weight: 400;
+	letter-spacing: 6px;
+}
+.heading {
+	font-size: 20px;
+}
+.subheading {
+	font-size: 14px;
+	font-weight: bold;
+	padding-bottom: 60px;
+}
+.bold {
+	font-weight: bold;
+}
+p {
+	letter-spacing: 1px;
+	line-height: 28px;
+}
+a {
+	outline: none !important;
+}
+hr {
+	width: 100px;
+}
+strong {
+	font-size: 50px;
+}
+.section-title {
+	text-align: center;
+	padding-bottom: 32px;
+}
+.medium-icon {
+	font-size: 32px !important;
+}
+#feature, #video, #screenshot, #testimonial, #contact {
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+#feature, #screenshot, #testimonial {
+	text-align: center;
+}
+#video {
+	background: #f9f9f9;
+}
+#testimonial {
+	background: #B2D5EE;
+}
+#testimonial img {
+	display: inline-block;
+	width: 100px;
+	height: 100px;
+	margin-bottom: 42px;
+}
+#testimonial h5 {
+	color: #ffffff;
+}
+
+/*
+  navigation section
+===================== */
+.sticky-navigation {
+	opacity: 0;
+}
+.navbar-default {
+	background: #fff;
+	border: none;
+	box-shadow: 0px 2px 8px 0px rgba(50, 50, 50, 0.08);
+	margin: 0 !important;
+	padding: 0;
+}
+.navbar-default .navbar-brand {
+	color: #B2D5EE;
+	font-weight: bold;
+	font-size: 26px;
+	line-height: 40px;
+}
+.navbar-default .navbar-nav li a {
+	color: #606060;
+	font-size: 13px;
+	font-weight: bold;
+	letter-spacing: 1px;
+	line-height: 40px;
+}
+.navbar-default .navbar-nav li a:hover {
+	color: #B2D5EE !important;
+}
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+	color: #606060;
+	background-color: transparent;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+	color: #B2D5EE;
+	background-color: transparent;
+}
+.navbar-default .navbar-toggle {
+	border: none;
+	padding-top: 10px;
+}
+.navbar-default .navbar-toggle .icon-bar {
+	background: #B2D5EE;
+	border-color: transparent;
+}
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+	background-color: transparent
+}
+/*
+  home section
+===================== */
+#home {
+	color: #000000;
+	text-align: center;
+}
+
+#home .container {
+	min-height: 50vw;
+	position:relative;
+}
+
+#home img {
+	position:absolute;
+	right:10px;
+	bottom:10px;
+	height:5vw;
+	min-height:75px;
+}
+
+/*
+  feature section
+===================== */
+#feature {
+	background: #ffffff;
+}
+
+#feature .col-md-12 {
+	padding-top: 30px;
+	padding-bottom: 40px;
+}
+#feature h3 {
+	font-size: 16px;
+}
+
+#feature img {
+	display:block;
+	margin:auto;
+}
+
+/*
+  screenshot section
+===================== */
+#screenshot {
+	background: #3b3b3b;
+}
+#screenshot h1 {
+	color: #3979A6;
+}
+#screenshot .col-md-3 {
+	background: #B2D5EE;
+	display: block;
+	width: 100%;
+ padding: .5rem;
+}
+
+/*
+  contact section
+===================== */
+#contact {
+	background: #f9f9f9;
+}
+#contact .contact-address {
+	color: #ffffff;
+	position: relative;
+	top: 140px;
+}
+#contact .contact-address p {
+	line-height: 16px;
+}
+#contact .contact-email, #contact .contact-phone, #contact .contact-website {
+	padding: 100px;
+}
+#contact .contact-email {
+	background: #d43901;
+}
+#contact .contact-phone {
+	background: #2b2b2b;
+}
+#contact .contact-website {
+	background: #3979A6;
+}
+#contact h3 {
+	font-size: 16px;
+	font-weight: bold;
+	letter-spacing: 2px;
+	padding-bottom: 12px;
+}
+#contact .medium-icon {
+	color: #ffffff;
+	font-size: 28px !important;
+}
+#contact .contact-info div {
+	padding-top: 14px;
+	padding-bottom: 14px;
+}
+#contact .form-control {
+	background: none;
+	border-radius: 0;
+	border-top: 0;
+	border-right: 0;
+	border-left: 0;
+	border-bottom: 2px solid #B2D5EE;
+	box-shadow: none;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	transition: all 0.4s ease-in;
+}
+#contact .form-control:focus {
+	border-bottom-color: #d43901;
+}
+#contact input {
+	height: 60px;
+}
+#contact input[type="submit"] {
+	border: 2px solid #B2D5EE;
+	color: #2b2b2b;
+	font-weight: bold;
+	letter-spacing: 1px;
+	margin-top: 18px;
+}
+#contact input[type="submit"]:hover {
+	background: #B2D5EE;
+}
+/*
+  footer section
+===================== */
+footer {
+	text-align: center;
+	padding-top: 100px;
+	padding-bottom: 60px;
+		background: #2b2b2b;
+	color: #ffffff;
+}
+footer p {
+	padding-top: 20px;
+}
+.social-icon {
+	padding: 0;
+	margin: 0;
+}
+.social-icon li {
+	list-style: none;
+	display: inline-block;
+	padding: 10px;
+}
+.social-icon li a {
+	border: 1px solid #B2D5EE;
+	border-radius: 50%;
+	color: #B2D5EE;
+	font-size: 18px;
+	width: 60px;
+	height: 60px;
+	line-height: 60px;
+	text-align: center;
+	text-decoration: none;
+	transition: all 0.4s ease-in;
+}
+.social-icon li a:hover {
+	background: #B2D5EE;
+	color: #2b2b2b;
+}
+
+
+/*
+  responsive mobile
+===================== */
+@media (max-width: 980px) {
+.navbar-default .navbar-nav li a {
+	font-size: 12px;
+}
+}
+ @media (max-width: 767px) {
+#feature, #video, #screenshot, #testimonial, #contact {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.navbar-default .navbar-brand {
+	line-height: 18px;
+}
+}
+ @media (max-width: 460px) {
+#feature, #video, #screenshot, #testimonial, #contact {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+#home h3 {
+	font-size: 34px;
+}
+#contact .contact-address {
+	text-align: center;
+}
+
+#contact .medium-icon {
+	display: block;
+	margin-bottom: 24px;
+}
+}
